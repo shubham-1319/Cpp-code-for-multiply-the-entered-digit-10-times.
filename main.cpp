@@ -1,16 +1,16 @@
-//made by shubh
 #include <iostream>
 using namespace std;
 
-// declaring a function
-void greet() {
-    cout << "Hello there!";
-}
-
 int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
 
-    // calling the function
-    greet();
+    for (int i = 1; i <= 10; ++i) {
+        num *= num;
+    }
 
+    cout << "Result: " << num << endl;
     return 0;
 }
+

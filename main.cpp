@@ -7,10 +7,9 @@ int main() {
     cin >> num;
 
     for (int i = 1; i <= 10; ++i) {
-        num *= num;
+        num *= 10;
     }
 
     cout << "Result: " << num << endl;
     return 0;
 }
-
